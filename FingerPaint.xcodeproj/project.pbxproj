@@ -13,6 +13,8 @@
 		95BB28821DD62ACC00EBDA11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95BB28801DD62ACC00EBDA11 /* Main.storyboard */; };
 		95BB28841DD62ACC00EBDA11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BB28831DD62ACC00EBDA11 /* Assets.xcassets */; };
 		95BB28871DD62ACC00EBDA11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95BB28851DD62ACC00EBDA11 /* LaunchScreen.storyboard */; };
+		95BB28901DD62C7900EBDA11 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BB288F1DD62C7900EBDA11 /* DrawingView.m */; };
+		95BB28931DD634E700EBDA11 /* LineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BB28921DD634E700EBDA11 /* LineManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		95BB28831DD62ACC00EBDA11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95BB28861DD62ACC00EBDA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95BB28881DD62ACC00EBDA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BB288E1DD62C7900EBDA11 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		95BB288F1DD62C7900EBDA11 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
+		95BB28911DD634E700EBDA11 /* LineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineManager.h; sourceTree = "<group>"; };
+		95BB28921DD634E700EBDA11 /* LineManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				95BB287D1DD62ACC00EBDA11 /* ViewController.h */,
 				95BB287E1DD62ACC00EBDA11 /* ViewController.m */,
 				95BB28801DD62ACC00EBDA11 /* Main.storyboard */,
+				95BB288E1DD62C7900EBDA11 /* DrawingView.h */,
+				95BB288F1DD62C7900EBDA11 /* DrawingView.m */,
+				95BB28911DD634E700EBDA11 /* LineManager.h */,
+				95BB28921DD634E700EBDA11 /* LineManager.m */,
 				95BB28831DD62ACC00EBDA11 /* Assets.xcassets */,
 				95BB28851DD62ACC00EBDA11 /* LaunchScreen.storyboard */,
 				95BB28881DD62ACC00EBDA11 /* Info.plist */,
@@ -110,6 +120,7 @@
 				TargetAttributes = {
 					95BB28731DD62ACC00EBDA11 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G3KYTESUM8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -150,9 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BB28931DD634E700EBDA11 /* LineManager.m in Sources */,
 				95BB287F1DD62ACC00EBDA11 /* ViewController.m in Sources */,
 				95BB287C1DD62ACC00EBDA11 /* AppDelegate.m in Sources */,
 				95BB28791DD62ACC00EBDA11 /* main.m in Sources */,
+				95BB28901DD62C7900EBDA11 /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3KYTESUM8;
 				INFOPLIST_FILE = FingerPaint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kurokakari.FingerPaint;
@@ -281,6 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3KYTESUM8;
 				INFOPLIST_FILE = FingerPaint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kurokakari.FingerPaint;
